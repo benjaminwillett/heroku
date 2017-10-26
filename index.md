@@ -2,34 +2,22 @@
 
 Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
 
-### Markdown
+Create a new app in Heroku call `exampleapp`.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+open a terminal on your computer and type:`$Heroku login`
 
-```markdown
-Syntax highlighted code block
+Initialize a git repository in a new or existing directory
+```
+$ cd my-project/
+$ git init
+$ heroku git:remote -a exampleapp
 
-# Header 1
-## Header 2
-### Header 3
+```
+Commit the code to the repository and deploy it to Heroku using git.
+```
+$ git add.
+$ git commit -am "make it better"
+$ git push heroku master
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/distortenterprises/heroku/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
